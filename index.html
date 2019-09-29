@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>标题</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script type="text/javascript">
+  function addScriptTag(src) {
+  var script = document.createElement('script');
+  script.setAttribute("type","text/javascript");
+  script.src = src;
+  document.body.appendChild(script);
+}
+function foo(data) {
+  
+  console.log('response data: ' + JSON.stringify(data));
+  var json = data.data[0];
+  console.log(json.location);
+  if (json.location.indexOf("北京")!=-1) {
+    console.log("北京");
+    window.location.href = "http://beijing.isoyu.com";
+  }
+  if (json.location.indexOf("天津")!=-1) {
+    console.log("天津");
+    window.location.href = "http://tianjin.isoyu.com";
+  }
+  if (json.location.indexOf("河北")!=-1) {
+    console.log("河北");
+    window.location.href = "http://hebei.isoyu.com";
+  }
+  if (json.location.indexOf("山西")!=-1) {
+    console.log("山西");
+    window.location.href = "http://shanxi.isoyu.com";
+  }if (json.location.indexOf("内蒙古")!=-1) {
+    console.log("内蒙古");
+    window.location.href = "http://neimenggu.isoyu.com";
+  }
+  if (json.location.indexOf("辽宁")!=-1) {
+    console.log("辽宁");
+    window.location.href = "http://liaoning.isoyu.com";
+  }
+  if (json.location.indexOf("吉林")!=-1) {
+    console.log("吉林");
+    window.location.href = "http://jilin.isoyu.com";
+  }
+  if (json.location.indexOf("黑龙江")!=-1) {
+    console.log("黑龙江");
+    window.location.href = "http://heilongjiang.isoyu.com";
+  }
+  if (json.location.indexOf("上海")!=-1) {
+    console.log("上海");
+    window.location.href = "http://shanghai.isoyu.com";
+  }
+  if (json.location.indexOf("江苏")!=-1) {
+    console.log("江苏");
+    window.location.href = "http://jiangsu.isoyu.com";
+  }
+  if (json.location.indexOf("浙江")!=-1) {
+    console.log("浙江");
+    window.location.href = "http://zhejiang.isoyu.com";
+  }
+  if (json.location.indexOf("安徽")!=-1) {
+    console.log("安徽");
+    window.location.href = "http://anhui.isoyu.com";
+  }
+  if (json.location.indexOf("福建")!=-1) {
+    console.log("福建");
+    window.location.href = "http://fujian.isoyu.com";
+  }
+  if (json.location.indexOf("江西")!=-1) {
+    console.log("江西");
+    window.location.href = "http://jiangxi.isoyu.com";
+  }
+  if (json.location.indexOf("山东")!=-1) {
+    console.log("山东");
+    window.location.href = "http://shandong.isoyu.com";
+  }
+  if (json.location.indexOf("河南")!=-1) {
+    console.log("河南");
+    window.location.href = "http://henan.isoyu.com";
+  }
+  if (json.location.indexOf("湖北")!=-1) {
+    console.log("湖北");
+    window.location.href = "http://hubei.isoyu.com";
+  }
+  if (json.location.indexOf("湖南")!=-1) {
+    console.log("湖南");
+    window.location.href = "http://hunan.isoyu.com";
+  }
+  if (json.location.indexOf("广东")!=-1) {
+    console.log("广东");
+    window.location.href = "http://guangdong.isoyu.com";
+  }
+  if (json.location.indexOf("广西")!=-1) {
+    console.log("广西");
+    window.location.href = "http://guangxi.isoyu.com";
+  }
+  if (json.location.indexOf("海南")!=-1) {
+    console.log("海南");
+    window.location.href = "http://hainan.isoyu.com";
+  }  
+  if (json.location.indexOf("重庆")!=-1) {
+    console.log("重庆");
+    window.location.href = "http://chongqing.isoyu.com";
+  }
+  if (json.location.indexOf("四川")!=-1) {
+    console.log("四川");
+    window.location.href = "http://sichuan.isoyu.com";
+  }
+  if (json.location.indexOf("贵州")!=-1) {
+    console.log("贵州");
+    window.location.href = "http://guizhou.isoyu.com";
+  }
+  if (json.location.indexOf("云南")!=-1) {
+    console.log("云南");
+    window.location.href = "http://yunnan.isoyu.com";
+  }
+  if (json.location.indexOf("西藏")!=-1) {
+    console.log("西藏");
+    window.location.href = "http://xizang.isoyu.com";
+  }
+  if (json.location.indexOf("陕西")!=-1) {
+    console.log("陕西");
+    window.location.href = "http://shanxi.isoyu.com";
+  }
+  if (json.location.indexOf("甘肃")!=-1) {
+    console.log("甘肃");
+    window.location.href = "http://gansu.isoyu.com";
+  }
+  if (json.location.indexOf("青海")!=-1) {
+    console.log("青海");
+    window.location.href = "http://qinghai.isoyu.com";
+  }
+  if (json.location.indexOf("宁夏")!=-1) {
+    console.log("宁夏");
+    window.location.href = "http://ningxia.isoyu.com";
+  }
+  if (json.location.indexOf("新疆")!=-1) {
+    console.log("新疆");
+    window.location.href = "http://xinjiang.isoyu.com";
+  }
+  if (json.location.indexOf("香港")!=-1) {
+    console.log("香港");
+    window.location.href = "http://xianggang.isoyu.com";
+  }
+  if (json.location.indexOf("澳门")!=-1) {
+    console.log("澳门");
+    window.location.href = "http://aomen.isoyu.com";
+  }
+  if (json.location.indexOf("台湾")!=-1) {
+    console.log("台湾");
+    window.location.href = "http://taiwan.isoyu.com";
+  }
+  else{
+    console.log("其他");
+    window.location.href = "http://www.isoyu.com";
+  }
+  
+};    
+window.onload = function () {
+  addScriptTag('https://sp0.isoyu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=ip&co=&resource_id=6006&t=1562124098965&ie=utf8&oe=gbk&cb=foo&format=json&tn=baidu');
+}
+</script>
